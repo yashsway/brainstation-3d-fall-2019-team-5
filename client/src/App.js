@@ -8,7 +8,7 @@ import globaldata from './data/globaldata';
 import sciencedata from './data/sciencedata';
 
 import image from './styles/assets/TEDinfluence1.svg'
-import graphtoo from './styles/assets/BAR.png'
+import graphtoo from './styles/assets/BARTRANS.png'
 
 export default class App extends Component {
   state = {
