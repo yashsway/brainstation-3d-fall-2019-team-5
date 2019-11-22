@@ -8,6 +8,7 @@ import globaldata from './data/globaldata';
 import sciencedata from './data/sciencedata';
 
 import image from './styles/assets/TEDinfluence1.svg'
+import graphtoo from './styles/assets/BAR.png'
 
 export default class App extends Component {
   state = {
@@ -47,18 +48,6 @@ export default class App extends Component {
         < Helmet >
           <title>TEDfluence</title>
         </Helmet>
-        {/* <div className="navBar">
-          <h1>TEDfluence</h1>
-          <ul className="navBar__list">
-            <li className="navBar__item">Discover</li>
-            <li className="navBar__item">About</li>
-            <li className="navBar__item">Login</li>
-          </ul>
-        </div>
-        <div className="blob">
-
-        </div> */}
-
         <div>
           <img className="image-hero" src={image} alt="asdf"></img>
           <div>
@@ -82,7 +71,6 @@ export default class App extends Component {
               for (let i = 12; i < index.url.length; i++) {
                 embedUrl += index.url[i]
               }
-              // console.log(embedUrl)
               return (
                 <div className="video__card">
                   <iframe className="video__link" src={`https://embed.${embedUrl}`} width="240" height="180" frameBorder="0" scrolling="no" />
@@ -99,7 +87,6 @@ export default class App extends Component {
               for (let i = 12; i < index.url.length; i++) {
                 embedUrl += index.url[i]
               }
-              // console.log(embedUrl)
               return (
                 <div className="video__card">
                   <iframe className="video__link" src={`https://embed.${embedUrl}`} width="240" height="180" frameBorder="0" scrolling="no" />
@@ -116,7 +103,6 @@ export default class App extends Component {
               for (let i = 12; i < index.url.length; i++) {
                 embedUrl += index.url[i]
               }
-              // console.log(embedUrl)
               return (
                 <div className="video__card">
                   <iframe className="video__link" src={`https://embed.${embedUrl}`} width="240" height="180" frameBorder="0" scrolling="no" />
@@ -126,17 +112,9 @@ export default class App extends Component {
           </div>
           : null}
 
-
-        {/* <div className="background-left">
-
-        </div> */}
-        {/* <div className="videos">
-          <div>
-            <div>
-              <iframe src="https://embed.ted.com/talks/tony_robbins_why_we_do_what_we_do" width="400" height="400" frameborder="0" scrolling="no" allowfullscreen />
-            </div>
+          <div className="extra-graphs">
+            <img className="graphtwo" src={graphtoo}></img>
           </div>
-        </div> */}
       </div >
     )
   }

@@ -4,7 +4,6 @@
 // TODO: replace the following styles once you start!
 
 .App {
-  // height: 100vh;
   display: flex;
   flex-direction: column;
   background: #d5d2d1;
@@ -31,26 +30,12 @@
 .blob {
   width: 100vw;
   height: 100px;
-  // position: absolute;
   top: 50px;
   right: 0;
   background: white;
 }
 
-// .background-left {
-//   width: 549px;
-//   height: 85vh;
-//   z-index: 1;
-//   align-self: flex-end;
-//   background: linear-gradient(-15deg, #FFC789, #C390E8, #46BBC4);
-//   border-top-left-radius: 160px;
-//   border-top-right-radius: 160px;
-//   position: absolute;
-//   left: 150px;
-// }
-
 .videos {
-  // z-index: 1;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -71,14 +56,12 @@
   width: 12.7777777vw;
   height: 12.7777777vw;
   outline: none;
-  // display: none;
   z-index: 1;
   font-family: Helvetica;
   font-size: 17px;
   
   &:hover {
     color: white;
-    // display: inline;
     box-shadow: 5px 5px;
     background: #EE0000;
   }
@@ -94,14 +77,12 @@
   width: 10.1388888888vw;
   height: 10.1388888888vw;
   outline: none;
-  // display: none;
   z-index: 1;
   font-family: Helvetica;
   font-size: 17px;
   
   &:hover {
     color: white;
-    // display: inline;
     box-shadow: 5px 5px;
     background: #00B119;
   }
@@ -117,14 +98,12 @@
   width: 11.31944444444vw;
   height: 11.31944444444vw;
   outline: none;
-  // display: none;
   z-index: 1;
   font-family: Helvetica;
   font-size: 17px;
   
   &:hover {
     color: white;
-    // display: inline;
     box-shadow: 5px 5px;
     background: #FFB600;
   }
@@ -140,4 +119,17 @@ h3 {
 
 .image-hero {
   width: 100vw;
+}
+
+.extra-graphs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // background: #F8F8F8;
+  background: white;
+}
+
+.graphtwo {
+  margin: 20px;
+  border-radius: 10px;
 }
